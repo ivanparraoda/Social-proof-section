@@ -1,0 +1,180 @@
+
+:root{
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    background-color:var(--White);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+}
+
+.container{
+    margin: 0 auto;
+    
+}
+
+
+
+.heading h2{
+    text-align: center;
+    color: var(--VeryDarkMagenta);
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding: 2rem 1.25rem 5px 2rem;
+    margin: 3rem 1.25rem 1.25rem 1rem;
+    
+}
+.heading p{
+    color: var(--DarkGrayishMagenta);
+    font-weight: 500;
+    margin: 1.40rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    
+
+}
+
+.flex-rating{
+    
+    background-color: var(--LightGrayishMagenta);
+    margin: 1rem;
+    padding: .6rem;
+    border-radius: 8px;
+
+}
+
+.flex-rating p{
+    color: var(--VeryDarkMagenta);
+    font-weight: 900;
+    
+}
+.text img{
+    
+    border-radius: 50%;
+    width: 80%;
+
+}
+
+.text{ 
+    
+    background-color: var(--VeryDarkMagenta);
+    margin: 1rem;
+    padding: 2.5rem;
+    border-radius: 5px;
+    
+}
+ 
+
+ .flex-info{
+    display: flex;
+    gap: 2rem;
+   
+ }
+
+
+
+.id p{
+    color: var(--White);
+    font-weight: 600;
+
+}
+.id p span{
+    color: var(--SoftPink);
+    font-weight: 400;
+}
+
+.sub{
+    color: var(--White);
+    text-align: left;
+}
+
+@media only screen and (min-width: 400px){
+   
+
+    body{
+        margin:0 100px 0 100px;
+    }
+    .heading{
+       display: flex;
+       flex-direction: column;
+       width: 560px;
+      
+    
+
+        
+    }
+
+    .heading h2{
+        padding-left: 0;
+        font-size: 50px;
+        text-align: left;
+    }
+    
+    .heading p{
+        
+        text-align: left;
+
+    }
+
+
+    .flex-rating{
+        display: block;
+        display: flex;
+        gap: 10px;
+        column-gap: 50px;
+        align-items: center;
+        padding: 0 20px 0 20px;
+        
+        
+        
+    }
+    
+    
+    .flex-columns{
+        display: flex;
+        column-gap: 300px;
+        
+        
+    }
+
+    .flex-opinion{
+        display: flex;
+       
+    
+    }
+
+    .flex-info{
+        align-items: center;
+    }
+
+    .p2{
+        transform: translateY(20px);
+    }
+
+    .p3{
+        transform: translateY(40px);
+    }
+
+    .ratings{
+        padding-top: 50px;
+    }
+
+    .one{
+        transform: translateX(-150px);
+    }
+
+    .two{
+        transform: translateX(-70px);
+    }
+    
+   
+}
