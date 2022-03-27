@@ -148,6 +148,7 @@ body{
 
     .flex-opinion{
         display: flex;
+        margin-bottom: 1rem;
        
     
     }
